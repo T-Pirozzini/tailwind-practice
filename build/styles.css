@@ -556,8 +556,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.list-decimal {
-  list-style-type: decimal;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .list-disc {
@@ -583,6 +583,15 @@ video {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#f46225\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 98 37 / var(--tw-bg-opacity));
+}
+
+.bg-\[color\:var\(--primary\)\] {
+  background-color: var(--primary);
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -603,6 +612,14 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[length\:var\(--leadfont\)\] {
+  font-size: var(--leadfont);
 }
 
 .font-bold {
@@ -628,9 +645,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#fff6ca\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 246 202 / var(--tw-text-opacity));
+}
+
 .testing {
   background: #f2f2f2;
   border: 2px solid #777;
+}
+
+:root {
+  --primary: #1eccac;
+  --leadfont: 1.2rem;
 }
 
 .first-letter\:font-bold::first-letter {
